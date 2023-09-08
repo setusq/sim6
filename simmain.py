@@ -1,6 +1,7 @@
 #М3О-234Б-22 Симонова,Матвеенко 6 группа
 import numpy as np
 import matplotlib.pyplot as plt
+# Создаем массивы x1 и x2
 x1 = np.linspace(0, 30, 100)
 x2 = np.linspace(0, 30, 100)
 X1, X2 = np.meshgrid(x1, x2)
@@ -21,4 +22,3 @@ plt.title('Линейная функция')
 plt.grid(True)
 plt.legend()
 plt.show()
-
