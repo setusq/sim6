@@ -14,6 +14,7 @@ Z = 3*X1 + 5*X2
 
 # Определяем ограничение
 constraint = 4*X1 + 5*X2
+
 plt.figure(figsize=(8, 6))
 plt.xlabel('x1')
 plt.ylabel('x2')
