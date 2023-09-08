@@ -36,6 +36,7 @@ plt.text(20, 10, 'x1=19', fontsize=10, color='gray')
 plt.text(5, 25, 'x2=17', fontsize=10, color='gray')
 plt.text(2, 3.5, 'Вектор z (3, 5)', fontsize=10, color='black')
 plt.text(-4, 2, 'Перпендикуляр', fontsize=10, color='green')
+
 plt.grid(True)
 plt.legend()
 plt.show()
