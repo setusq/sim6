@@ -21,4 +21,4 @@ plt.title('Линейная функция')
 plt.grid(True)
 plt.legend()
 plt.show()
-#Pivet
+
