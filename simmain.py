@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 # Создаем массивы x1 и x2
 x1 = np.linspace(0, 30, 100)
 x2 = np.linspace(0, 30, 100)
+# Создаем сетку X1 и X2
 X1, X2 = np.meshgrid(x1, x2)
 Z = 3*X1 + 5*X2
 constraint = 4*X1 + 5*X2
