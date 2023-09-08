@@ -20,13 +20,16 @@ plt.ylabel('x2')
 plt.contour(X1, X2, constraint, levels=[141], colors='red', linestyles='dashed',label='Ограничение')
 plt.axvline(x=19, color='gray', linestyle='dashed', label='x1=19')
 plt.axhline(y=17, color='gray', linestyle='dashed', label='x2=17')
+
 #Вектор Z
 plt.arrow(0, 0, 3, 5, head_width=0.5, head_length=0.7, fc='black', ec='black', label='вектор z (3, 5)')
 perpendicular_x = np.array([0, -5])
 perpendicular_y = np.array([0, 3])
 plt.plot(perpendicular_x, perpendicular_y, linestyle='dashed', color='green', label='перпендикуляр')
+
 #название злп
 plt.title('Линейная функция')
+
 # Добавление подписей к линиям и векторам
 plt.text(10, 20, 'Ограничение', fontsize=10, color='red')
 plt.text(20, 10, 'x1=19', fontsize=10, color='gray')
