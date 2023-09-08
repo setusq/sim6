@@ -8,6 +8,7 @@ x2 = np.linspace(0, 30, 100)
 X1, X2 = np.meshgrid(x1, x2)
 # Определяем функцию Z
 Z = 3*X1 + 5*X2
+# Определяем ограничение
 constraint = 4*X1 + 5*X2
 plt.figure(figsize=(8, 6))
 plt.xlabel('x1')
