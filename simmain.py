@@ -24,6 +24,7 @@ plt.plot(perpendicular_x, perpendicular_y, linestyle='dashed', color='green', la
 #название злп
 plt.title('Линейная функция')
 # Добавление подписей к линиям и векторам
+plt.text(10, 20, 'Ограничение', fontsize=10, color='red')
 plt.grid(True)
 plt.legend()
 plt.show()
