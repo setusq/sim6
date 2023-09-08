@@ -18,6 +18,7 @@ plt.figure(figsize=(8, 6))
 plt.xlabel('x1')
 plt.ylabel('x2')
 plt.contour(X1, X2, constraint, levels=[141], colors='red', linestyles='dashed',label='Ограничение')
+#Добавляем линии x и y
 plt.axvline(x=19, color='gray', linestyle='dashed', label='x1=19')
 plt.axhline(y=17, color='gray', linestyle='dashed', label='x2=17')
 
